@@ -13,6 +13,27 @@
   position: relative;
 }
 
+.app-title {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.app-title h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md, 8px);
+  box-shadow: var(--shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--color-border, #e2e8f0);
+}
+
 /* Node Styles */
 .custom-node {
   padding: 0.35rem;
