@@ -18,7 +18,7 @@ export const initialNodes: Node[] = [
     { id: 'ope-1', type: 'custom', position: { x: 200, y: 320 }, data: { code: 'OPE-01', label: 'ADMISIÓN', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Admisión' } },
 
     { id: 'ope-3', type: 'custom', position: { x: 450, y: 180 }, data: { code: 'OPE-03', label: 'SEGUIMIENTO AL ESTUDIANTE', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Gestión Académica, Subunidad de Tutoría y Servicio Psicopedagógico, Coordinaciones de Tutoría de los programas de estudios', time: 'Mensual' } },
-    { id: 'ope-2', type: 'custom', position: { x: 450, y: 260 }, data: { code: 'OPE-02', label: 'GESTIÓN APRENDIZAJE ENSEÑANZA', category: 'operativo', description: 'Proceso Operativo', owner: 'Vicerrectorado Académico, Dirección de Gestión Académica, Oficina de Cooperación Nacional e Internacional, Dirección de Escuela Profesional, Subunidad de Bibliotecas – Bibliotreca Central', time: 'Semestral' } },
+    { id: 'ope-2', type: 'custom', position: { x: 450, y: 260 }, data: { code: 'OPE-02', label: 'GESTIÓN APRENDIZAJE ENSEÑANZA', category: 'operativo', description: 'Proceso Operativo', owner: 'Vicerrectorado Académico, Dirección de Gestión Académica, Oficina de Cooperación Nacional e Internacional, Dirección de Escuela Profesional, Subunidad de Bibliotecas – Biblioteca Central', time: 'Semestral' } },
     { id: 'ope-5', type: 'custom', position: { x: 450, y: 350 }, data: { code: 'OPE-05', label: 'RESPONSABILIDAD SOCIAL UNIVERSITARIA', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Proyección Social y Extensión Cultural, Oficina de Gestión Ambiental. ', time: 'Anual' } },
     { id: 'ope-4', type: 'custom', position: { x: 450, y: 440 }, data: { code: 'OPE-04', label: 'INVESTIGACIÓN I+D+i', category: 'operativo', description: 'Proceso Operativo', owner: 'Vicerrectorado de Investigación, Dirección General de Investigación, Instituto de Investigación, Coordinaciones de Investigación, Unidades de Investigación de las Facultades', time: 'Anual' } },
 
@@ -31,7 +31,7 @@ export const initialNodes: Node[] = [
 
     // SOPORTE
     { id: 'sop-1', type: 'custom', position: { x: 200, y: 600 }, data: { code: 'SOP-01', label: 'GESTIÓN ADMINISTRATIVA', category: 'soporte', description: 'Proceso de Soporte', owner: 'Dirección General de Administración, Unidad de Recursos Humanos' } },
-    { id: 'spe-2', type: 'custom', position: { x: 450, y: 600 }, data: { code: 'SPE-02', label: 'GESTIÓN DE TIC', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de tecnologías de Información' } },
+    { id: 'spe-2', type: 'custom', position: { x: 450, y: 600 }, data: { code: 'SPE-02', label: 'GESTIÓN DE TIC', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de Tecnologías de Información' } },
     { id: 'sop-3', type: 'custom', position: { x: 700, y: 600 }, data: { code: 'SOP-03', label: 'BIENESTAR UNIVERSITARIO', category: 'soporte', description: 'Proceso de Soporte', owner: 'Dirección de Bienestar Universitario, Subunidad de Servicio Social, Subunidad de Promoción del Deporte, Subunidad de Servicio de Comedor, Subunidad de Servicio Médico Primario, Unidad de Servicios Generales' } },
     { id: 'sop-4', type: 'custom', position: { x: 950, y: 600 }, data: { code: 'SOP-04', label: 'INFORMACIÓN Y COMUNICACIÓN', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de Comunicación e Imagen Institucional' } },
 ];
