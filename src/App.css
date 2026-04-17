@@ -1,0 +1,226 @@
+/* App Specific Styles */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.map-section {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+/* Node Styles */
+.custom-node {
+  padding: 0.35rem;
+  border-radius: 8px;
+  /* Pill shape styling */
+  background-color: var(--color-surface-base);
+  border: 1.5px solid var(--color-border);
+  min-width: 90px;
+  max-width: 110px;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  color: #1a202c;
+  /* default text color */
+}
+
+.custom-node:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.node-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+}
+
+/* Specific Node Type Styles */
+.node-type-start .node-icon-wrapper {
+  background: rgba(16, 185, 129, 0.2);
+  color: var(--color-success);
+}
+
+.node-type-process .node-icon-wrapper {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--color-primary);
+}
+
+.node-type-decision .node-icon-wrapper {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--color-warning);
+}
+
+.node-type-end .node-icon-wrapper {
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--color-error);
+}
+
+.node-description {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+/* React Flow Style Overrides */
+.react-flow__background {
+  background-color: var(--color-bg);
+}
+
+.react-flow__controls-button {
+  background-color: var(--color-surface-base) !important;
+  border-color: var(--color-border) !important;
+  fill: var(--color-text-main) !important;
+  color: var(--color-text-main) !important;
+}
+
+.react-flow__controls-button:hover {
+  background-color: var(--color-surface-hover) !important;
+}
+
+/* Sidebar Styles */
+.sidebar-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 10;
+  padding: 1.5rem;
+}
+
+.sidebar-overlay.open {
+  transform: translateX(0);
+}
+
+.sidebar-content {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.close-btn {
+  color: var(--color-text-muted);
+  padding: 0.5rem;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.close-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-text-main);
+}
+
+.sidebar-body {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.detail-group {
+  margin-bottom: 1.5rem;
+}
+
+.detail-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.detail-value {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text-main);
+}
+
+.tag-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: var(--color-surface-hover);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  color: var(--color-text-main);
+}
+
+/* Category Specific Styles */
+.cat-estrategico {
+  background-color: #d1e5f0;
+  border-color: #5c9fd6;
+  color: #1e3a5f;
+}
+
+.cat-estrategico.selected {
+  border-color: #0284c7;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.4);
+}
+
+.cat-operativo {
+  background-color: #e2efea;
+  border-color: #4a8264;
+  color: #1f422e;
+}
+
+.cat-operativo.selected {
+  border-color: #059669;
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.4);
+}
+
+.cat-soporte {
+  background-color: #fdf5e6;
+  border-color: #b58d3c;
+  color: #523a10;
+}
+
+.cat-soporte.selected {
+  border-color: #d97706;
+  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.4);
+}

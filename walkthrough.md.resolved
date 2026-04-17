@@ -1,0 +1,48 @@
+# Interactive Process Map Walkthrough
+
+Se ha implementado satisfactoriamente el mapa de procesos interactivo utilizando React, Vite y React Flow.
+
+## Características Implementadas
+
+### 1. Sistema Base y Rendimiento
+- Proyecto configurado con **Vite** y **TypeScript** para un desarrollo ágil y fuertemente tipado.
+- Compilación validada sin errores de TypeScript.
+
+### 2. Estética Premium (CSS Vainilla)
+- **Modo Oscuro Integrado**: Se estableció una paleta de colores moderna (`bg: #0f172a`, `surface: #1e293b`) que resulta descansada para la vista y visualmente atractiva.
+- **Glassmorphism**: Efectos de cristal esmerilado en los paneles flotantes (Sidebar) y el control lateral.
+- **Micro-animaciones**: Los nodos tienen efectos sutiles de hover (`translateY`) que invitan a la interacción.
+
+### 3. Diagrama Completo (React Flow)
+- **Nodos Personalizados**: Los nodos varían de color e íconos dependiendo de su tipo (`start`, `process`, `decision`, `end`) facilitando identificar visualmente los pasos del proceso.
+- **Interactividad Total**:
+  - Zoom in/out, desplazamiento libre.
+  - Al hacer clic sobre cualquier nodo, este se marca visualmente (se le dibuja un borde primario) y se abre automáticamente el panel de detalles.
+
+### 5. Diagrama Específico de Universidad y Swimlanes
+- **Líneas de Nado (Swimlanes)**: El área de trabajo se ha dividido horizontalmente en tres carriles de fondo rectangulares que agrupan los procesos. Sus etiquetas verticales están posicionadas a la izquierda: ESTRATÉGICOS, OPERATIVOS y SOPORTE.
+- **Zonas/Categorías Visuales (Fieles a la imagen)**: Se definieron las tres categorías operacionales que colorean los nodos según su respectiva ubicación:
+  - **Estratégicos**: Nombres en cursiva con bordes azules marcados (pill shape).
+  - **Operativos**: Bordes verdes gruesos con tonalidades verde menta.
+  - **Soporte**: Bordes dorados/naranjas estilo mostaza.
+- **Nodos Especiales**: Nodos circulares customizados para marcar "Inicio" y "Fin", replicando los dobles círculos verdes y morados.
+- **Estilo de Conectores**: Las flechas son completamente ortogonales (estilo "step") con terminaciones de flecha gruesas y de color magenta oscuro, diseñadas para lucir igual a la versión real.
+- **Estructura Replicada**: Todo el esquema, los códigos (`EST-01`, `OPE-02`) e identidades textuales se muestran centrados con un recuadro de tipo `[+]` en la base del nodo.
+
+### 4. Panel Lateral (Sidebar)
+- Oculto por defecto y deslizable lateralmente al seleccionar un nodo.
+- Muestra de manera organizada:
+  - Nombre y descripción.
+  - Información de campos como **Tiempo Estimado** y **Responsable**.
+  - **Etiquetas (Tags)** asociadas al paso.
+
+## Instrucciones para Ejecutar
+Para iniciar la aplicación localmente en tu sistema desde la terminal, dentro de la carpeta `ProcessDiagram`:
+```bash
+npm run dev
+```
+
+Esto abrirá la aplicación en tu navegador, donde el panel ocupará toda la pantalla y podrás probar el mapa interactivo haciendo clic sobre las diferentes cajas.
+
+> [!TIP]
+> Si en el futuro deseas conectar estos datos a una API, puedes reemplazar el archivo [mockData.ts](file:///Users/eramoz/AntigravityProjects/ProcessDiagram/src/data/mockData.ts) con una llamada de red usando `useEffect`.

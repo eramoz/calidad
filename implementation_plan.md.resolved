@@ -1,0 +1,37 @@
+# Interactive Process Map Implementation Plan
+
+El objetivo es construir una aplicación web moderna y visualmente atractiva para mapear procesos de manera interactiva.
+
+## Enfoque propuesto
+
+Se propone utilizar la siguiente pila tecnológica para asegurar un alto rendimiento y una estética premium:
+
+1. **Framework Core**: React vía Vite. Es el estándar actual para proyectos web dinámicos.
+2. **Estilizado**: CSS Vainilla con un diseño moderno (colores armoniosos, modo oscuro, bordes suavizados "glassmorphism" y micro-animaciones).
+3. **Mapa Interactivo**: Uso de la librería `reactflow` (o implementación personalizada si se requieren nodos muy estáticos, pero React Flow es ideal para diagramas de flujo interactivos).
+
+## Estructura de la solución
+
+La aplicación consistirá en:
+- **Vista principal (Canvas)**: Un área interactiva donde se dibujarán los nodos (pasos del proceso) y sus conexiones.
+- **Panel de Detalles**: Al hacer clic en un proceso, se abrirá un panel lateral estilizado mostrando información adicional (descripción, responsables, métricas).
+
+## Plan de Ejecución
+
+1. Inicialización del proyecto Vite + React.
+2. Instalación de dependencias (React Flow, iconos como lucide-react).
+3. Creación del sistema de diseño (variables CSS, paleta de colores).
+4. Implementación del layout y el mapa de procesos.
+5. Integración de interactividad y detalles de los nodos.
+
+## User Review Required
+
+> [!IMPORTANT]  
+> 1. ¿Prefieres utilizar alguna librería como **TailwindCSS** para los estilos, o te parece bien usar **CSS puro (Vanilla)** para máximo control?
+> 2. Para el mapa de procesos, ¿estaría bien usar **React Flow**, la cual es excelente para cajas y flechas interactivos, o prefieres algo más simple como una lista de tarjetas interactivas paso a paso?
+> 3. ¿Tienes algún diseño, paleta de colores específico (ej. colores corporativos) en mente?
+
+## Pasos de Verificación
+- Iniciar servidor de desarrollo local.
+- Hacer click en cada nodo para verificar que se abre su información.
+- Comprobar que sea visualmente atractivo y responsivo.
