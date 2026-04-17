@@ -46,7 +46,7 @@ export default function App() {
   return (
     <div className="app-container">
       <div className="app-title">
-        <h1>Sistema de Gestión de la </h1>
+        <h1>Sistema de Gestión de la Calidad</h1>
       </div>
       <div className="map-section">
         <ReactFlow
