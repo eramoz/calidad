@@ -10,7 +10,7 @@ export const initialNodes: Node[] = [
     // ESTRATÉGICOS
     { id: 'est-1', type: 'custom', position: { x: 200, y: 80 }, data: { code: 'EST-01', label: 'GESTIÓN DEL CURRÍCULO', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Dirección de Gestión Académica, Subunidad de Planeamiento Curricular y Desempeño Docente, Dirección de Escuela', time: 'Continúo' } },
     { id: 'est-2', type: 'custom', position: { x: 450, y: 80 }, data: { code: 'EST-02', label: 'PLANIFICACIÓN ESTRATÉGICA', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Oficina de Planeamiento y Presupuesto', time: 'Anual' } },
-    { id: 'est-3', type: 'custom', position: { x: 950, y: 80 }, data: { code: 'EST-03', label: 'GESTIÓN DE LA CALIDAD', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Oficina de Gestión de la Calidad', time: 'Continúo' } },
+    { id: 'est-3', type: 'custom', position: { x: 950, y: 80 }, data: { code: 'EST-03', label: 'GESTIÓN DE LA CALIDAD', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Asamblea Universitaria, Dirección General Rector y Vicerectores, Oficina de Gestión de la Calidad', time: 'Continúo' } },
 
     // OPERATIVOS
     { id: 'start', type: 'shape', position: { x: 50, y: 340 }, data: { shape: 'start' } },
