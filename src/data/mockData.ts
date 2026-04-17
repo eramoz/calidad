@@ -8,32 +8,32 @@ export const initialNodes: Node[] = [
     { id: 'lane-3', type: 'swimlane', position: { x: -30, y: 520 }, data: { label: 'SOPORTE', color: '#fef08a' }, style: { width: 1300, height: 160, zIndex: -1 }, selectable: false, draggable: false },
 
     // ESTRATÉGICOS
-    { id: 'est-1', type: 'custom', position: { x: 200, y: 80 }, data: { code: 'EST-01', label: 'GESTIÓN DEL CURRÍCULO', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Dirección de Gestión Académica, Subunidad de Planeamiento Curricular y Desempeño Docente, Dirección de Escuela', time: 'Continúo' } },
+    { id: 'est-1', type: 'custom', position: { x: 200, y: 80 }, data: { code: 'EST-01', label: 'GESTIÓN DEL CURRÍCULO', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Dirección de Gestión Académica, Subunidad de Planeamiento Curricular y Desempeño Docente, Dirección de Escuela Profesional', time: 'Continúo' } },
     { id: 'est-2', type: 'custom', position: { x: 450, y: 80 }, data: { code: 'EST-02', label: 'PLANIFICACIÓN ESTRATÉGICA', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Oficina de Planeamiento y Presupuesto', time: 'Anual' } },
-    { id: 'est-3', type: 'custom', position: { x: 950, y: 80 }, data: { code: 'EST-03', label: 'GESTIÓN DE LA CALIDAD', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Asamblea Universitaria, Dirección General Rector y Vicerectores, Oficina de Gestión de la Calidad', time: 'Continúo' } },
+    { id: 'est-3', type: 'custom', position: { x: 950, y: 80 }, data: { code: 'EST-03', label: 'GESTIÓN DE LA CALIDAD', category: 'estrategico', description: 'Proceso Estratégico', owner: 'Oficina de Gestión de la Calidad', time: 'Continúo' } },
 
     // OPERATIVOS
     { id: 'start', type: 'shape', position: { x: 50, y: 340 }, data: { shape: 'start' } },
 
-    { id: 'ope-1', type: 'custom', position: { x: 200, y: 320 }, data: { code: 'OPE-01', label: 'ADMISIÓN', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección General de Admisión' } },
+    { id: 'ope-1', type: 'custom', position: { x: 200, y: 320 }, data: { code: 'OPE-01', label: 'ADMISIÓN', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Admisión' } },
 
-    { id: 'ope-3', type: 'custom', position: { x: 450, y: 180 }, data: { code: 'OPE-03', label: 'SEGUIMIENTO AL ESTUDIANTE', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Escuela, Subunidad de Tutoría y psicopedagogía, Coordinaciones de Tutoría', time: 'Mensual' } },
-    { id: 'ope-2', type: 'custom', position: { x: 450, y: 260 }, data: { code: 'OPE-02', label: 'GESTIÓN APRENDIZAJE ENSEÑANZA', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Gestión Académica, Subunidad de Supervisión y Evaluación Académica, Dirección de Escuela, Coordinación Académica, Tutoría, Coordinaciones de Tutoría', time: 'Semestral' } },
-    { id: 'ope-5', type: 'custom', position: { x: 450, y: 350 }, data: { code: 'OPE-05', label: 'RESPONSABILIDAD SOCIAL UNIVERSITARIA', category: 'operativo', description: 'Proceso Operativo', owner: 'Proyección social y extensión Universitaria', time: 'Anual' } },
-    { id: 'ope-4', type: 'custom', position: { x: 450, y: 440 }, data: { code: 'OPE-04', label: 'INVESTIGACIÓN I+D+i', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección General de Investigación, coordinaciones de Investigación', time: 'Anual' } },
+    { id: 'ope-3', type: 'custom', position: { x: 450, y: 180 }, data: { code: 'OPE-03', label: 'SEGUIMIENTO AL ESTUDIANTE', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Gestión Académica, Subunidad de Tutoría y Servicio Psicopedagógico, Coordinaciones de Tutoría de los programas de estudios', time: 'Mensual' } },
+    { id: 'ope-2', type: 'custom', position: { x: 450, y: 260 }, data: { code: 'OPE-02', label: 'GESTIÓN APRENDIZAJE ENSEÑANZA', category: 'operativo', description: 'Proceso Operativo', owner: 'Vicerrectorado Académico, Dirección de Gestión Académica, Oficina de Cooperación Nacional e Internacional, Dirección de Escuela Profesional, Subunidad de Bibliotecas – Bibliotreca Central', time: 'Semestral' } },
+    { id: 'ope-5', type: 'custom', position: { x: 450, y: 350 }, data: { code: 'OPE-05', label: 'RESPONSABILIDAD SOCIAL UNIVERSITARIA', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Proyección Social y Extensión Cultural, Oficina de Gestión Ambiental. ', time: 'Anual' } },
+    { id: 'ope-4', type: 'custom', position: { x: 450, y: 440 }, data: { code: 'OPE-04', label: 'INVESTIGACIÓN I+D+i', category: 'operativo', description: 'Proceso Operativo', owner: 'Vicerrectorado de Investigación, Dirección General de Investigación, Instituto de Investigación, Coordinaciones de Investigación, Unidades de Investigación de las Facultades', time: 'Anual' } },
 
-    { id: 'ope-6', type: 'custom', position: { x: 750, y: 330 }, data: { code: 'OPE-06', label: 'VERIFICACIÓN DEL PERFIL DE EGRESO', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Gestión Académica, Dirección de Escuela', time: 'Al finalizar' } },
+    { id: 'ope-6', type: 'custom', position: { x: 750, y: 330 }, data: { code: 'OPE-06', label: 'VERIFICACIÓN DEL PERFIL DE EGRESO', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Gestión Académica, Dirección de Escuela Profesional', time: 'Al finalizar' } },
 
-    { id: 'ope-7', type: 'custom', position: { x: 950, y: 180 }, data: { code: 'OPE-07', label: 'SEGUIMIENTO AL EGRESADO', category: 'operativo', description: 'Proceso Operativo', owner: 'Proyección social y extensión Universitaria – Subunidad de Seguimiento al Egresado', time: 'Anual' } },
-    { id: 'ope-8', type: 'custom', position: { x: 950, y: 350 }, data: { code: 'OPE-08', label: 'GRADOS Y TITULOS', category: 'operativo', description: 'Proceso Operativo', owner: 'Secretaria General, Oficina de Grados y títulos', time: 'Varía' } },
+    { id: 'ope-7', type: 'custom', position: { x: 950, y: 180 }, data: { code: 'OPE-07', label: 'SEGUIMIENTO AL EGRESADO', category: 'operativo', description: 'Proceso Operativo', owner: 'Dirección de Proyección Social y Extensión Cultural – Subunidad de Seguimiento al Egresado, Dirección de Escuela Profesional', time: 'Anual' } },
+    { id: 'ope-8', type: 'custom', position: { x: 950, y: 350 }, data: { code: 'OPE-08', label: 'GRADOS Y TITULOS', category: 'operativo', description: 'Proceso Operativo', owner: 'Secretaría General – Subunidad de Grados y Títulos', time: 'Varía' } },
 
     { id: 'end', type: 'shape', position: { x: 1200, y: 340 }, data: { shape: 'end' } },
 
     // SOPORTE
-    { id: 'sop-1', type: 'custom', position: { x: 200, y: 600 }, data: { code: 'SOP-01', label: 'GESTIÓN ADMINISTRATIVA', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de Recursos Humanos' } },
+    { id: 'sop-1', type: 'custom', position: { x: 200, y: 600 }, data: { code: 'SOP-01', label: 'GESTIÓN ADMINISTRATIVA', category: 'soporte', description: 'Proceso de Soporte', owner: 'Dirección General de Administración, Unidad de Recursos Humanos' } },
     { id: 'spe-2', type: 'custom', position: { x: 450, y: 600 }, data: { code: 'SPE-02', label: 'GESTIÓN DE TIC', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de tecnologías de Información' } },
-    { id: 'sop-3', type: 'custom', position: { x: 700, y: 600 }, data: { code: 'SOP-03', label: 'BIENESTAR UNIVERSITARIO', category: 'soporte', description: 'Proceso de Soporte', owner: 'Bienestar Universitario, Subunidad de Servicio Social, Comedor Universitario, Deportes, Servicio Médico Primario' } },
-    { id: 'sop-4', type: 'custom', position: { x: 950, y: 600 }, data: { code: 'SOP-04', label: 'INFORMACIÓN Y COMUNICACIÓN', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de Imagen Institucional' } },
+    { id: 'sop-3', type: 'custom', position: { x: 700, y: 600 }, data: { code: 'SOP-03', label: 'BIENESTAR UNIVERSITARIO', category: 'soporte', description: 'Proceso de Soporte', owner: 'Dirección de Bienestar Universitario, Subunidad de Servicio Social, Subunidad de Promoción del Deporte, Subunidad de Servicio de Comedor, Subunidad de Servicio Médico Primario, Unidad de Servicios Generales' } },
+    { id: 'sop-4', type: 'custom', position: { x: 950, y: 600 }, data: { code: 'SOP-04', label: 'INFORMACIÓN Y COMUNICACIÓN', category: 'soporte', description: 'Proceso de Soporte', owner: 'Oficina de Comunicación e Imagen Institucional' } },
 ];
 
 const mainColor = '#9a3b72'; // Match the thick purple arrows from image
